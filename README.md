@@ -17,8 +17,8 @@ Both scripts are here because the jump from one to the other is the point. Use t
 Both read "/var/log/auth.log", which only root can read on Ubuntu, so both need "sudo".
 
 
-sudo bash ssh_report.sh
-sudo python3 ssh_reports.py
+- sudo bash ssh_report.sh
+- sudo python3 ssh_reports.py
 
 
 The Python version writes "ssh_report_output.txt" to wherever you run it from.
