@@ -7,7 +7,7 @@ Two scripts that read "/var/log/auth.log" and tell you what's been going on with
 
 So I rewrote it in Python. Same job, more useful I used regex to pull IPs out of the log lines, a dictionary to count attempts per IP, a threshold check to flag anything suspicious, and a saved report file so I can actually go back and read it.
 
-Both scripts are here because the jump from one to the other is the point. Use the simple tool until it stops fitting, then upgrade.
+Both scripts are here because it shows that I hit a limit with the bash script, then moved on.
 
 - "ssh_report.sh" — bash, quick, prints to terminal
 - "ssh_reports.py" — Python, does more, saves a report file
