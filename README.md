@@ -34,11 +34,11 @@ python3 ssh_reports.py test_fixtures/sample_auth.log
 "sample_output.txt" is the captured output of that exact command with fake IPs and usernames, but the output itself is what the script actually produces.
 
 --- Next features
----
--- Read rotated logs too 
--- Make the "suspicious" threshold a command-line argument 
--- Filter by timestamp 
----
+
+- Read rotated logs too 
+- Make the "suspicious" threshold a command-line argument 
+- Filter by timestamp 
+
 Tested on Ubuntu 26.04 (Resolute Raccoon).
 
 Built as part of my home security lab.
