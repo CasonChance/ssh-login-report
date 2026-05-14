@@ -28,7 +28,7 @@ The Python version writes "ssh_report_output.txt" to wherever you run it from.
 "ssh_reports.py" accepts an optional path argument:
 
 
-python3 ssh_reports.py test_fixtures/sample_auth.log
+"python3 ssh_reports.py test_fixtures/sample_auth.log"
 
 
 "sample_output.txt" is the captured output of that exact command with fake IPs and usernames, but the output itself is what the script actually produces. I added this incase anyone wanted to see the code, and be able to use an example without pointing it at anything.
