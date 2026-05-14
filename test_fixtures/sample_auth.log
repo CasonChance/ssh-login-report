@@ -1,0 +1,14 @@
+2026-05-12T07:30:14.554302-05:00 ai-server sshd-session[8950]: Accepted publickey for alice from 203.0.113.42 port 47220 ssh2: ED25519 SHA256:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-05-12T03:14:22.118934-05:00 ai-server sshd-session[8821]: Failed password for root from 192.0.2.45 port 51120 ssh2
+2026-05-12T03:14:25.342105-05:00 ai-server sshd-session[8821]: Failed password for root from 192.0.2.45 port 51120 ssh2
+2026-05-12T03:14:28.661042-05:00 ai-server sshd-session[8821]: Failed password for root from 192.0.2.45 port 51120 ssh2
+2026-05-12T03:14:31.891627-05:00 ai-server sshd-session[8821]: Failed password for admin from 192.0.2.45 port 51120 ssh2
+2026-05-12T03:14:35.224380-05:00 ai-server sshd-session[8821]: Failed password for admin from 192.0.2.45 port 51120 ssh2
+2026-05-12T03:14:38.557921-05:00 ai-server sshd-session[8821]: Failed password for ubuntu from 192.0.2.45 port 51120 ssh2
+2026-05-12T03:14:41.802113-05:00 ai-server sshd-session[8821]: Failed password for ubuntu from 192.0.2.45 port 51120 ssh2
+2026-05-12T08:42:11.553298-05:00 ai-server sshd-session[9104]: Failed password for ubuntu from 198.51.100.17 port 44882 ssh2
+2026-05-12T08:42:14.781456-05:00 ai-server sshd-session[9104]: Failed password for ubuntu from 198.51.100.17 port 44882 ssh2
+2026-05-12T08:42:18.225739-05:00 ai-server sshd-session[9104]: Failed password for ubuntu from 198.51.100.17 port 44882 ssh2
+2026-05-12T12:15:48.881207-05:00 ai-server sshd-session[9533]: Accepted publickey for alice from 203.0.113.42 port 51002 ssh2: ED25519 SHA256:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-05-12T18:44:09.117885-05:00 ai-server sshd-session[9722]: Accepted publickey for alice from 203.0.113.42 port 39448 ssh2: ED25519 SHA256:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2026-05-12T19:08:55.220133-05:00 ai-server sshd-session[9876]: Failed password for alice from 203.0.113.88 port 38104 ssh2

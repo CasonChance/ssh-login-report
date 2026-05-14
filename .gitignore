@@ -1,0 +1,9 @@
+# Real output from script runs — contains real IPs, usernames, timestamps
+ssh_report_output.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
