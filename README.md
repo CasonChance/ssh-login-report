@@ -12,8 +12,6 @@ Both scripts are here because the jump from one to the other is the point. Use t
 - "ssh_report.sh" — bash, quick, prints to terminal
 - "ssh_reports.py" — Python, does more, saves a report file
 
----
-
 --- Running it
 
 Both read "/var/log/auth.log", which only root can read on Ubuntu, so both need "sudo".
@@ -25,8 +23,6 @@ sudo python3 ssh_reports.py
 
 The Python version writes "ssh_report_output.txt" to wherever you run it from.
 
----
-
 --- Trying it without a real auth.log
 
 "ssh_reports.py" accepts an optional path argument, so you can point it at the included test fixture and see it work without needing root or a real Ubuntu host:
@@ -37,16 +33,12 @@ python3 ssh_reports.py test_fixtures/sample_auth.log
 
 "sample_output.txt" is the captured output of that exact command with fake IPs and usernames, but the output itself is what the script actually produces.
 
----
-
 --- Next features
 
-- Read rotated logs too 
-- Make the "suspicious" threshold a command-line argument 
-- Filter by timestamp 
+-- Read rotated logs too 
+-- Make the "suspicious" threshold a command-line argument 
+-- Filter by timestamp 
 
 Tested on Ubuntu 26.04 (Resolute Raccoon).
-
----
 
 Built as part of my home security lab.
