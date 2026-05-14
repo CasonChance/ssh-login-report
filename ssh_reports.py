@@ -77,8 +77,6 @@ def save_report(failed, accepted, ip_counts, suspicious):
     print(f"\nReport saved to {REPORT_FILE}")
 
 def main():
-    # If a log path was passed on the command line, use it.
-    # Otherwise default to the system auth.log.
     if len(sys.argv) > 1:
         log_path = sys.argv[1]
     else:
