@@ -25,7 +25,7 @@ The Python version writes "ssh_report_output.txt" to wherever you run it from.
 
 ### Trying it without a real auth.log
 
-"ssh_reports.py" accepts an optional path argument, so you can point it at the included test fixture and see it work without needing root or a real Ubuntu host:
+"ssh_reports.py" accepts an optional path argument:
 
 
 python3 ssh_reports.py test_fixtures/sample_auth.log
